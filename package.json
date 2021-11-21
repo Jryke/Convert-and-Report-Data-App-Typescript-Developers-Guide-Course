@@ -1,0 +1,17 @@
+{
+  "name": "stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently yarn:start:*"
+  },
+  "author": "Jesse Rykerson",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15"
+  }
+}
