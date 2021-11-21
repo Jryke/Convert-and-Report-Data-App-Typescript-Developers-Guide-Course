@@ -11,6 +11,7 @@
   "author": "Jesse Rykerson",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^16.11.9",
     "concurrently": "^6.4.0",
     "nodemon": "^2.0.15"
   }
